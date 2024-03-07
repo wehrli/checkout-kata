@@ -22,3 +22,18 @@ interface ICheckout
     int GetTotalPrice();
 }
 ```
+
+# Requirement
+- go 1.21
+
+# Buil it / Run it / Test it
+
+## Build it:
+- make clean
+- make
+
+## Run it
+- ./checkoutkata
+
+## Test it
+- go test test/*.go
